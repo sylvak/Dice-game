@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,500&display=swap&subset=latin-ext"
+        rel="stylesheet">
+    <link href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css" rel="stylesheet" type="text/css">
+    <link type="text/css" rel="stylesheet" href="style.css">
+
+    <title>Dice Game</title>
+</head>
+
+<body>
+    <div class="obsah clearfix">
+        <div class="hrac-0-panel aktivni">
+            <div class="hrac-jmeno" id="jmeno-0">Hráč 1</div>
+            <div class="hrac-body" id="body-0">43</div>
+            <div class="hrac-soucasne-box">
+                <div class="hrac-soucasne-popisek">Body</div>
+                <div class="hrac-soucasne-body" id="soucasne-0">11</div>
+            </div>
+        </div>
+
+        <div class="hrac-1-panel">
+            <div class="hrac-jmeno" id="jmeno-1">Hráč 2</div>
+            <div class="hrac-body" id="body-1">72</div>
+            <div class="hrac-soucasne-box">
+                <div class="hrac-soucasne-popisek">Body</div>
+                <div class="hrac-soucasne-body" id="soucasne-1">0</div>
+            </div>
+        </div>
+
+        <button class="tlacitko-novy"><i class="ion-ios-plus-outline"></i>Nová hra</button>
+        <button class="tlacitko-hod"><i class="ion-ios-loop"></i>Hoď kostkou</button>
+        <button class="tlacitko-dost"><i class="ion-ios-download-outline"></i>Dost</button>
+        <button class="tlacitko-pravidla">Pravidla hry</button>
+
+        <div class="kostka">5</div>
+
+
+        <!-- The Modal -->
+        <div id="myModal" class="modal">
+
+            <!-- Modal content -->
+            <div class="modal-content" id="modal-content">
+                <div class="modal-header">
+                <span class="close" id="close-btn">&times;</span>
+                <h2>PRAVIDLA HRY</h2>
+                </div>
+                <p>- Hra má dva hráče, kteří se střídají každé kolo.</p>
+                <p>- V každém kole hází hráč kostkou kolikrát chce. Hodnota každého hodu se přičítá k jeho bodů v daném
+                    kole.</p>
+                <p>- Pokud na kostce padne 1, ztrácí všechny body v daném kole a na řadu se dostává hráč dvě.</p>
+                <p>- Hráč může zvolit "dost", což znamená, že všechny body nahrané v jeho kole se přičtou k jeho
+                    celkovým bodům. Poté je na řadě hráč dvě.</p>
+                <p>- Hra končí jakmile jeden z hráčů dosáhne 100 bodů.</p>
+            </div>
+
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+
+</html>
