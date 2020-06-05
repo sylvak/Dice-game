@@ -5,3 +5,5 @@ PRAVIDLA HRY:
 - Pokud na kostce padne 1, ztrácí všechny body v daném kole a na řadu se dostává hráč dvě.
 - Hráč může zvolit "dost" a všechny body nahrané v jeho kole tak přičíst k celkovým bodům. 
 - Hra končí jakmile jeden z hráčů dosáhne 100 bodů.
+
+Začni hrát zde: https://sylvak.github.io/Dice-game/
